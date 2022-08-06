@@ -11,10 +11,10 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
     public function _initDb() {
         $db = new Zend_Db_Adapter_Pdo_Mysql(
                     array(
-                 'host' => 'heytaxidb.cr9ecvsaymat.us-east-2.rds.amazonaws.com',
-                'username' => 'heytaxidbphp',
-                'password' => 'Mycomputerokok$1132',
-                'dbname' => 'heytaxi', //live db
+                 'host' => 'sql6.freemysqlhosting.net',
+                'username' => 'sql6511088',
+                'password' => 'ADakpCBTcT',
+                'dbname' => 'sql6511088', //live db
                         
 //                          'host' => 'localhost',
 //                        'username' => 'root',
