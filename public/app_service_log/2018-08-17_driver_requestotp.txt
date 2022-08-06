@@ -1,0 +1,28 @@
+
+[2018-08-17 11:21:16] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484848"}
+
+[2018-08-17 11:21:16] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484848"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-17 12:19:28] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4847474141"}
+
+[2018-08-17 12:19:28] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4847474141"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-17 12:39:25] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}
+
+[2018-08-17 12:39:25] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}  response --> {"code":184,"msg":"Already registered as passenger"}
+
+[2018-08-17 12:41:09] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}
+
+[2018-08-17 12:41:09] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}  response --> {"code":184,"msg":"Already registered as passenger"}
+
+[2018-08-17 12:43:01] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}
+
+[2018-08-17 12:43:02] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}  response --> {"code":184,"msg":"Already registered as passenger"}
+
+[2018-08-17 12:43:59] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}
+
+[2018-08-17 12:43:59] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}  response --> {"code":184,"msg":"Already registered as passenger"}
+
+[2018-08-17 22:35:21] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4142443454"}
+
+[2018-08-17 22:35:21] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4142443454"}  response --> {"code":185,"msg":"Driver registration needed"}

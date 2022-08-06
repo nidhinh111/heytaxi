@@ -1,0 +1,4 @@
+
+[2018-08-26 12:03:06] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"Nidhin","otp":"123456","phone":"6666666655"}
+
+[2018-08-26 12:03:06] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"Nidhin","otp":"123456","phone":"6666666655"}  response --> {"code":191,"token":"uvere5an","msg":"OTP verfication success","name":"Nidhin"}

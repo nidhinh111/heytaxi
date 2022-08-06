@@ -1,0 +1,8 @@
+
+[2018-07-26 23:00:36] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"arjun","otp":"123456","phone":"4814454545"}
+
+[2018-07-26 23:00:36] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"arjun","otp":"123456","phone":"4814454545"}  response --> {"code":191,"token":"ynavadyg","msg":"OTP verfication success","name":"arjun"}
+
+[2018-07-26 23:30:07] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"shanil","otp":"123456","phone":"4814454545"}
+
+[2018-07-26 23:30:07] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"shanil","otp":"123456","phone":"4814454545"}  response --> {"code":191,"token":"ry5yty6y","msg":"OTP verfication success","name":"shanil"}

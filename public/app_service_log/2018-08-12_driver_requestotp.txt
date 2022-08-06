@@ -1,0 +1,28 @@
+
+[2018-08-12 14:19:31] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}
+
+[2018-08-12 14:19:31] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-12 14:26:26] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}
+
+[2018-08-12 14:26:26] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-12 14:27:14] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}
+
+[2018-08-12 14:27:14] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-12 14:28:26] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}
+
+[2018-08-12 14:28:26] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-12 14:31:19] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}
+
+[2018-08-12 14:31:19] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9497834558"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-12 14:38:05] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"8078450993"}
+
+[2018-08-12 14:38:05] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"8078450993"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-12 15:10:57] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"8078450993"}
+
+[2018-08-12 15:10:57] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"8078450993"}  response --> {"code":185,"msg":"Driver registration needed"}

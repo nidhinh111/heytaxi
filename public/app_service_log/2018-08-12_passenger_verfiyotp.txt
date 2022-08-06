@@ -1,0 +1,4 @@
+
+[2018-08-12 14:33:57] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Ambili","otp":"123456","phone":"8903162396"}
+
+[2018-08-12 14:33:57] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Ambili","otp":"123456","phone":"8903162396"}  response --> {"code":191,"token":"qurymu3u","msg":"OTP verfication success","name":"Ambili","ad_freeq":4}

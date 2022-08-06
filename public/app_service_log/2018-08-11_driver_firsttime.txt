@@ -1,0 +1,10 @@
+
+[2018-08-11 11:03:06]  response --> {"code":182,"msg":"firsttime success","area":[{"id":"1","name":"Orkatteri"}]}
+
+[2018-08-11 11:27:46]  response --> {"code":182,"msg":"firsttime success","area":[{"id":"1","name":"Orkatteri"}]}
+
+[2018-08-11 11:42:07]  response --> {"code":182,"msg":"firsttime success","area":[{"id":"1","name":"Orkatteri"}]}
+
+[2018-08-11 22:57:33]  response --> {"code":182,"msg":"firsttime success","area":[{"id":"1","name":"Orkatteri"}]}
+
+[2018-08-11 23:42:44]  response --> {"code":182,"msg":"firsttime success","area":[{"id":"1","name":"Orkatteri"}]}

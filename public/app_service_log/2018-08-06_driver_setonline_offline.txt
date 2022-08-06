@@ -1,0 +1,8 @@
+
+[2018-08-06 12:52:22] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"yzujavat","online":"1"}
+
+[2018-08-06 12:52:22] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"yzujavat","online":"1"}  response --> {"code":272,"msg":"change online failed","current_state":1}
+
+[2018-08-06 12:56:04] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"yzujavat","online":"0"}
+
+[2018-08-06 12:56:04] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"yzujavat","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}

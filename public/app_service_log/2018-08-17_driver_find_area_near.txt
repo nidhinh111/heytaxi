@@ -1,0 +1,8 @@
+
+[2018-08-17 12:20:13] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6331807","lng":"75.5831601"}
+
+[2018-08-17 12:20:13] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6331807","lng":"75.5831601"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"2.8353275177834885"}]}
+
+[2018-08-17 22:35:42] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6409545","lng":"75.5872946"}
+
+[2018-08-17 22:35:42] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6409545","lng":"75.5872946"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"1.9086825140942514"}]}

@@ -1,0 +1,36 @@
+
+[2018-07-26 12:16:09] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9562880285"}
+
+[2018-07-26 12:16:09] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9562880285"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-07-26 12:16:43] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9562880285"}
+
+[2018-07-26 12:16:43] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9562880285"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-07-26 17:50:41] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9037535169"}
+
+[2018-07-26 17:50:41] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9037535169"}  response --> {"code":183,"msg":"User registered as driver"}
+
+[2018-07-26 17:51:02] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"7977437506"}
+
+[2018-07-26 17:51:02] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"7977437506"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-07-26 17:54:59] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9999666123"}
+
+[2018-07-26 17:54:59] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"9999666123"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-07-26 17:57:46] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"1122334455"}
+
+[2018-07-26 17:57:46] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"1122334455"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-07-26 22:27:35] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"1234567890"}
+
+[2018-07-26 22:27:35] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"1234567890"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-07-26 22:29:50] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"6666666666"}
+
+[2018-07-26 22:29:50] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"6666666666"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-07-26 22:46:33] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"8888888888"}
+
+[2018-07-26 22:46:33] request <-- {"action":"requestotp","controller":"user","module":"Api","phone":"8888888888"}  response --> {"code":179,"msg":"OTP request success"}

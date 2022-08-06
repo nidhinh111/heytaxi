@@ -1,0 +1,8 @@
+
+[2018-08-17 13:15:23] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"kakash","otp":"123456","phone":"9562880285"}
+
+[2018-08-17 13:15:23] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"kakash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"dysunygu","msg":"OTP verfication success","name":"kakash","ad_freeq":4}
+
+[2018-08-17 22:33:47] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}
+
+[2018-08-17 22:33:47] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"8a8esetu","msg":"OTP verfication success","name":"Akash","ad_freeq":4}

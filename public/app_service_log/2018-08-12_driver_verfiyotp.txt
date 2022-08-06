@@ -1,0 +1,4 @@
+
+[2018-08-12 14:31:25] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"Ambili","otp":"123456","phone":"9497834558"}
+
+[2018-08-12 14:31:25] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"Ambili","otp":"123456","phone":"9497834558"}  response --> {"code":191,"token":"gubaqu4e","msg":"OTP verfication success","name":"Ambili"}

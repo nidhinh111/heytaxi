@@ -1,0 +1,20 @@
+
+[2018-08-13 21:50:07] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"1"}
+
+[2018-08-13 21:50:07] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-13 21:50:23] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"0"}
+
+[2018-08-13 21:50:23] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-13 21:50:43] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"1"}
+
+[2018-08-13 21:50:43] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-13 21:58:38] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"1"}
+
+[2018-08-13 21:58:38] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"1"}  response --> {"code":272,"msg":"change online failed","current_state":1}
+
+[2018-08-13 21:58:47] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"0"}
+
+[2018-08-13 21:58:47] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"agaja5ut","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}

@@ -1,0 +1,16 @@
+
+[2018-08-28 10:57:52] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e4u4apeh"}
+
+[2018-08-28 10:57:52] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e4u4apeh"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-08-28 10:59:21] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e4u4apeh"}
+
+[2018-08-28 10:59:21] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e4u4apeh"}  response --> {"code":263,"token":"hyzy2ymy","msg":"Driver approval sucess"}
+
+[2018-08-28 11:10:22] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"py8urape"}
+
+[2018-08-28 11:10:22] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"py8urape"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-08-28 11:10:52] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"py8urape"}
+
+[2018-08-28 11:10:52] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"py8urape"}  response --> {"code":263,"token":"epevezuz","msg":"Driver approval sucess"}

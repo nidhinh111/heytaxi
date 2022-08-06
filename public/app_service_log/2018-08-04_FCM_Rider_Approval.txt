@@ -1,0 +1,22 @@
+
+[2018-08-04 12:10:35] FCM_Rider_Approval Fiedls ->> {"registration_ids":["d81fTVLF36M:APA91bHth0TBNQPguwiYZlSyU6fn5EjBWn0uAl5M7DouoFDIKDRf5WCnMNYS4OKGgBJQdYw6Vq2UK7mqHb-eT9ocPEE5rzQ__QigWqpUmQXTuS5dg8sk-Wwh_KQ0qBV0iFwsVpotZXIp2yjR3t8AGDcqnadADWsIcw"],"data":{"message":"Approved Successfully"},"priority":"high"}  Headers ->> ["Authorization: key=AIzaSyDJvDPLCT-y9zhxNYXnKAQnnf9MGtxKweM","Content-Type: application\/json"]
+
+[2018-08-04 12:10:35] FCM_Rider_Approval Fiedls ->> {"registration_ids":["d81fTVLF36M:APA91bHth0TBNQPguwiYZlSyU6fn5EjBWn0uAl5M7DouoFDIKDRf5WCnMNYS4OKGgBJQdYw6Vq2UK7mqHb-eT9ocPEE5rzQ__QigWqpUmQXTuS5dg8sk-Wwh_KQ0qBV0iFwsVpotZXIp2yjR3t8AGDcqnadADWsIcw"],"data":{"message":"Approved Successfully"},"priority":"high"}  Headers ->> ["Authorization: key=AIzaSyDJvDPLCT-y9zhxNYXnKAQnnf9MGtxKweM","Content-Type: application\/json"] POST <<- <HTML>
+<HEAD>
+<TITLE>Unauthorized</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<H1>Unauthorized</H1>
+<H2>Error 401</H2>
+</BODY>
+</HTML>
+
+
+[2018-08-04 12:24:15] FCM_Rider_Approval Fiedls ->> {"to":["eWAIkAkh61s:APA91bG5rfDx3jIJWq-7JIczZ0CS1OFTlMd8C66YGs6WFQY9yweXlQAm8K9ndwm4zxiU20ApKU5K-1HArUP343A-b4xP2o-KdHgQVZdpZg-m81EF-ZDccn4RtP06dmzsJD7dgz9qIJwGI_LA13ZnUXSEucw7yhWRyw"],"notification":{"title":"Approved","body":"Successfully Approved."},"priority":"high"}  Headers ->> ["Authorization: key=AAAAGdHn0sg:APA91bGQJ6OdY0clU28mo3C4silFVxM0kwTE73UYIYz2ADb9T0FQT5YQv4pDNW7COHU4h5p5TvCkvV_iD1z14CZmnPwEY28MlH-SyEVY0Su3rGsNlO8mnBDEXm_wgInl6SuYaTTbXtrQ","Content-Type: application\/json"]
+
+[2018-08-04 12:24:15] FCM_Rider_Approval Fiedls ->> {"to":["eWAIkAkh61s:APA91bG5rfDx3jIJWq-7JIczZ0CS1OFTlMd8C66YGs6WFQY9yweXlQAm8K9ndwm4zxiU20ApKU5K-1HArUP343A-b4xP2o-KdHgQVZdpZg-m81EF-ZDccn4RtP06dmzsJD7dgz9qIJwGI_LA13ZnUXSEucw7yhWRyw"],"notification":{"title":"Approved","body":"Successfully Approved."},"priority":"high"}  Headers ->> ["Authorization: key=AAAAGdHn0sg:APA91bGQJ6OdY0clU28mo3C4silFVxM0kwTE73UYIYz2ADb9T0FQT5YQv4pDNW7COHU4h5p5TvCkvV_iD1z14CZmnPwEY28MlH-SyEVY0Su3rGsNlO8mnBDEXm_wgInl6SuYaTTbXtrQ","Content-Type: application\/json"] POST <<- Field "to" must be a JSON string: ["eWAIkAkh61s:APA91bG5rfDx3jIJWq-7JIczZ0CS1OFTlMd8C66YGs6WFQY9yweXlQAm8K9ndwm4zxiU20ApKU5K-1HArUP343A-b4xP2o-KdHgQVZdpZg-m81EF-ZDccn4RtP06dmzsJD7dgz9qIJwGI_LA13ZnUXSEucw7yhWRyw"]
+
+
+[2018-08-04 12:31:55] FCM_Rider_Approval Fiedls ->> {"to":"fkwsJP4eaCw:APA91bGRn5AOhVW5OJMpDtHMUz2jeuYqNPD9g31cJTPbuEEh0Rn4hWG5qRpL-SbV2Kj6aeEDGnTxml8E0jJCe2m2vAxAN_FYrnv0rmndrP-UcPnyW2-kSl5LBq_Ylsy2XgJqqNTleNY5zJKP5L-pGVhhKjDWzul3Ow","notification":{"title":"Approved","body":"Successfully Approved."},"priority":"high"}  Headers ->> ["Authorization: key=AAAAGdHn0sg:APA91bGQJ6OdY0clU28mo3C4silFVxM0kwTE73UYIYz2ADb9T0FQT5YQv4pDNW7COHU4h5p5TvCkvV_iD1z14CZmnPwEY28MlH-SyEVY0Su3rGsNlO8mnBDEXm_wgInl6SuYaTTbXtrQ","Content-Type: application\/json"]
+
+[2018-08-04 12:31:56] FCM_Rider_Approval Fiedls ->> {"to":"fkwsJP4eaCw:APA91bGRn5AOhVW5OJMpDtHMUz2jeuYqNPD9g31cJTPbuEEh0Rn4hWG5qRpL-SbV2Kj6aeEDGnTxml8E0jJCe2m2vAxAN_FYrnv0rmndrP-UcPnyW2-kSl5LBq_Ylsy2XgJqqNTleNY5zJKP5L-pGVhhKjDWzul3Ow","notification":{"title":"Approved","body":"Successfully Approved."},"priority":"high"}  Headers ->> ["Authorization: key=AAAAGdHn0sg:APA91bGQJ6OdY0clU28mo3C4silFVxM0kwTE73UYIYz2ADb9T0FQT5YQv4pDNW7COHU4h5p5TvCkvV_iD1z14CZmnPwEY28MlH-SyEVY0Su3rGsNlO8mnBDEXm_wgInl6SuYaTTbXtrQ","Content-Type: application\/json"] POST <<- {"multicast_id":8844260848437238584,"success":1,"failure":0,"canonical_ids":0,"results":[{"message_id":"0:1533366116061953%43b7c12f43b7c12f"}]}

@@ -1,0 +1,12 @@
+
+[2018-07-28 16:09:02] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Afzal","otp":"123456","phone":"1234567890"}
+
+[2018-07-28 16:09:02] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Afzal","otp":"123456","phone":"1234567890"}  response --> {"code":191,"token":"ybyjumyr","msg":"OTP verfication success","name":"Afzal","ad_freeq":4}
+
+[2018-07-28 16:09:02] request <-- {"action":"verfiyotp","controller":"user","module":"Api"}
+
+[2018-07-28 16:09:02] request <-- {"action":"verfiyotp","controller":"user","module":"Api"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-28 19:57:40] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Arjun","otp":"123456","phone":"9633381469"}
+
+[2018-07-28 19:57:40] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Arjun","otp":"123456","phone":"9633381469"}  response --> {"code":191,"token":"u4ahure4","msg":"OTP verfication success","name":"Arjun","ad_freeq":4}

@@ -1,0 +1,4 @@
+
+[2018-08-24 10:48:27] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880854"}
+
+[2018-08-24 10:48:27] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880854"}  response --> {"code":191,"token":"reqava8u","msg":"OTP verfication success","name":"Akash","ad_freeq":4}

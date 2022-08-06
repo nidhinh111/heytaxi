@@ -1,0 +1,12 @@
+
+[2018-07-14 18:03:22] request <-- 
+
+[2018-07-14 18:03:22] request <--   response --> {"code":184,"msg":"Already registered as passenger"}
+
+[2018-07-14 18:03:25] request <-- 
+
+[2018-07-14 18:03:25] request <--   response --> {"code":184,"msg":"Already registered as passenger"}
+
+[2018-07-14 18:04:13] request <-- 
+
+[2018-07-14 18:04:13] request <--   response --> {"code":185,"msg":"Driver registration needed"}

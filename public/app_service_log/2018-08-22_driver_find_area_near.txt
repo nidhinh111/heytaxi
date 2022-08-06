@@ -1,0 +1,4 @@
+
+[2018-08-22 20:26:20] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6290552","lng":"75.5769753"}
+
+[2018-08-22 20:26:20] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6290552","lng":"75.5769753"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"3.6326919453908024"}]}

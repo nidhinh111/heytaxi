@@ -1,0 +1,20 @@
+
+[2018-09-16 19:41:11] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-16 19:41:11] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"3y9ere4u","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-16 19:44:31] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123566","phone":"9562880285"}
+
+[2018-09-16 19:44:31] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123566","phone":"9562880285"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-09-16 19:44:39] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-16 19:44:40] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"a6a4avaj","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-16 23:03:37] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123685","phone":"9562880285"}
+
+[2018-09-16 23:03:37] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123685","phone":"9562880285"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-09-16 23:03:45] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-16 23:03:45] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"rynavana","msg":"OTP verfication success","name":"akash","ad_freeq":4}

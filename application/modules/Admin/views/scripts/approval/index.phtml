@@ -1,0 +1,177 @@
+<?php
+extract($this->data);
+//print('<pre>');print_r($approval_listing);exit;
+?>
+
+<head>
+    <link rel="stylesheet" href="<?php echo $this->baseUrl('/') ?>assets/alertify/themes/alertify.core.css" />
+    <link rel="stylesheet" href="<?php echo $this->baseUrl('/') ?>assets/alertify/themes/alertify.default.css" id="toggleCSS" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700" rel="stylesheet">
+    <!--<link href="<?php echo $this->baseUrl('/') ?>assets/css/adminstyle.css" rel="stylesheet" type="text/css">-->
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/bootstrap-table.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link href="<?php echo $this->baseUrl('/') ?>assets/css/main.css" rel="stylesheet" type="text/css">-->
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/custom.css" rel="stylesheet" type="text/css">
+    <style>
+        .form-control{
+            text-align: center;
+        }
+        .select2{
+            text-align: center;
+        }
+    </style>
+    <title>BYGO - Approvals</title>
+</head>
+
+
+<div class="container">
+    <div class="row">
+        <br>     
+        <div class="wrapper">	
+            <div class="container-fluid primary-content">
+                <div class="primary-content-heading clearfix">
+                    <ul class="breadcrumb pull-left">
+                        <li><i class="fa fa-home"></i>&nbsp;<b>Approvals</b></li>
+                        <li><a href="/Admin/Area/">Areas</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="center"><b>Bygo Approvals</b></h3>
+                        <div class="table-responsive">
+
+
+                            <table id="approval_table" class="table table-bordred table-striped dataTable">
+
+                                <thead>
+
+                                <th width="5%">Id</th>
+                                <th width="15%">Name</th>
+                                <th width="15%">Mobile</th>
+                                <th width="15%">User Type</th>
+                                <th width="15%">Area</th>
+                                <th width="15%">Vehicle Number</th>
+                                <th width="5%">License Front</th>
+                                <th width="5%">License Back</th>
+                                <th width="10%">Option</th>
+                                </thead>
+                                <tbody>
+                                    <?php if (count($approval_listing) > 0) {
+                                        foreach ($approval_listing as $val) {
+                                            ?>
+                                            <tr>
+                                                <td><?php echo $val['id']; ?></td>
+                                                <td><?php echo ucwords($val['name']); ?></td>
+                                                <td><?php echo $val['phone']; ?></td>
+                                                <td><?php echo $user_arr[$val['usertype']]; ?></td>
+                                                <td><?php echo $area_arr[$val['areaid']]; ?></td>
+                                                <td><?php echo $val['vehicle_number']; ?></td>
+                                                <td><p data-placement="top" data-toggle="tooltip" title="Licence Front"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="setimage('<?php echo $val['license_front'] ?>');"><span class="fa fa-image"></span></button></p></td>
+                                                <td><p data-placement="top" data-toggle="tooltip" title="Licence Back"><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" onclick="setimage('<?php echo $val['license_back'] ?>');"><span class="fa fa-image"></span></button></p></td>
+                                                <?php if ($val['verify_status'] == 0) { ?>
+                                                    <td><input type="button" id="approve_<?php echo $val['id'] ?>" class="btn-primary" onclick="approvedriver('<?php echo $val['id'] ?>','<?php echo ucwords($val['name']); ?>');" value="Approve"/></td>
+                                                <?php } else { ?>
+                                                    <td><input type="button" class="btn-success" disabled value="Approved"/></td>
+                                            <?php } ?>
+                                            </tr>
+    <?php }
+} else { ?>
+                                        <tr>
+                                            <td colspan="12">No records found</td>
+                                        </tr>
+<?php } ?>
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
+    <div class="modal-dialog ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="fa fa-close" aria-hidden="true"></span></button>
+                <h4 class="modal-title custom_align" id="Heading">License</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <img id="driving_licence" src="" width="400" height="300"  border="0" alt="driving_licence"/>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal-content --> 
+    </div>
+    <!-- /.modal-dialog --> 
+</div>
+
+
+<link rel="stylesheet" href="<?php echo $this->baseUrl('/') ?>assets/css/jquery-ui.css"> 
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery/jquery-1.10.2.js"></script>
+
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery/jquery-2.1.0.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery-ui/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/bootstrap/bootstrap.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/plugins/select2/select2.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+<script src="<?php echo $this->baseUrl('/'); ?>assets/bootstrap/view-utilities.js" type="text/javascript"></script> 
+
+<script src="<?php echo $this->baseUrl('/') ?>assets/alertify/lib/alertify.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery-ui/jquery-ui-1.11.4.custom.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo $this->baseUrl('/') ?>assets/DataTables/datatables.min.css"/>
+<script type="text/javascript" src="<?php echo $this->baseUrl('/') ?>assets/DataTables/datatables.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+       $('#approval_table').DataTable({
+            "order": [[ 0, "desc" ]]
+       });
+    });
+    
+    function setimage(url){
+        var imageurl = '<?php echo $this->baseUrl('/') ?>'+url;
+        $('#driving_licence').attr("src",'');
+        $('#driving_licence').attr("src",imageurl);
+        
+    }
+    
+    function approvedriver(id,name){
+        alertify.confirm("Approve "+name+" ?",
+        function(e){
+            if(e){
+                $("#apporve_"+id).prop('disabled', true);
+                $.ajax({
+                    type: 'Post',
+                    url: "/Admin/Approval/approvedriver", 
+                    dataType: 'json',
+                    data:{
+                       id : id
+                    },    
+                    success: function(response){
+                        if(response.respo == 1){
+                            alertify.success(name+' approved successfully');
+                            $("#approve_"+id).removeClass('btn-primary').addClass('btn-success');
+                            $('#approve_'+id).val('');$('#approve_'+id).val('Approved');
+                            
+                        }else{
+                            alertify.error(response.msg);
+                        }
+                    }
+                });
+            }else{
+                return;
+            }
+        });
+    }
+</script>

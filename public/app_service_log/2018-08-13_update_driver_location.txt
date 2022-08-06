@@ -1,0 +1,8 @@
+
+[2018-08-13 21:50:08] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"agaja5ut","lat":"11.6333785","lng":"75.5802725","acc":"3474.0"}
+
+[2018-08-13 21:50:08] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"agaja5ut","lat":"11.6333785","lng":"75.5802725","acc":"3474.0"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-08-13 21:58:39] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"agaja5ut","lat":"11.6413171","lng":"75.5864342","acc":"2599.999"}
+
+[2018-08-13 21:58:40] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"agaja5ut","lat":"11.6413171","lng":"75.5864342","acc":"2599.999"}  response --> {"code":282,"msg":"driver location success"}

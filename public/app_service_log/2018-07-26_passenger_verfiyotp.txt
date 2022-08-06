@@ -1,0 +1,60 @@
+
+[2018-07-26 12:16:15] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-07-26 12:16:23] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-07-26 12:16:23] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 12:16:49] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-07-26 12:16:49] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"8e2y2uze","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-07-26 17:51:08] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"7977437506"}
+
+[2018-07-26 17:51:16] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"7977437506"}
+
+[2018-07-26 17:51:16] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"7977437506"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 17:51:34] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"7977437506"}
+
+[2018-07-26 17:51:34] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"7977437506"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 17:51:41] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"7977437506"}
+
+[2018-07-26 17:51:41] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"7977437506"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 17:55:04] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}
+
+[2018-07-26 17:55:06] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}
+
+[2018-07-26 17:55:06] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 17:55:09] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}
+
+[2018-07-26 17:55:09] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 17:56:12] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}
+
+[2018-07-26 17:56:13] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 17:56:44] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}
+
+[2018-07-26 17:56:44] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"9999666123"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 17:58:01] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"1122334455"}
+
+[2018-07-26 22:26:51] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"1122334455"}
+
+[2018-07-26 22:26:51] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"1122334455"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 22:27:44] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"test","otp":"123456","phone":"1234567890"}
+
+[2018-07-26 22:29:56] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"test1","otp":"123456","phone":"6666666666"}
+
+[2018-07-26 22:46:16] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"test1","otp":"123456","phone":"6666666666"}
+
+[2018-07-26 22:46:16] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"test1","otp":"123456","phone":"6666666666"}  response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-26 22:46:43] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"testing","otp":"123456","phone":"8888888888"}
+
+[2018-07-26 22:46:43] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"testing","otp":"123456","phone":"8888888888"}  response --> {"code":191,"token":"ma5e6udu","msg":"OTP verfication success","name":"testing","ad_freeq":4}

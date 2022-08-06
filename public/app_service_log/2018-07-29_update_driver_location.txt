@@ -1,0 +1,4 @@
+
+[2018-07-29 09:31:40] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"8e6ypypa","lat":"11.6408248","lng":"75.587285","acc":"3411.0"}
+
+[2018-07-29 09:31:40] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"8e6ypypa","lat":"11.6408248","lng":"75.587285","acc":"3411.0"}  response --> {"code":282,"msg":"driver location success"}

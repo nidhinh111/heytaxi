@@ -1,0 +1,4 @@
+
+[2018-08-01 10:08:59] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"u4yhyrap","vehicletype":"3","lat":"11.6341","lng":"75.5775268","versionCode":"1"}
+
+[2018-08-01 10:08:59] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"u4yhyrap","vehicletype":"3","lat":"11.6341","lng":"75.5775268","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.43935221010367226"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.5513792661896862"},{"driver_id":"7","lat":"11.634245","lng":"75.585007","accuracy":"3433","name":"akasham","phone":"4848484848","distance":"0.8148000912714417"}]}

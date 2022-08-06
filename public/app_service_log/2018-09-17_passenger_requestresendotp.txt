@@ -1,0 +1,8 @@
+
+[2018-09-17 00:35:40] request <-- {"action":"requestresendotp","controller":"user","module":"Api","phone":"9562880285"}
+
+[2018-09-17 00:35:40] request <-- {"action":"requestresendotp","controller":"user","module":"Api","phone":"9562880285"}  response --> {"code":300,"msg":"OTP request success"}
+
+[2018-09-17 10:36:07] request <-- {"action":"requestresendotp","controller":"user","module":"Api","phone":"5555555555"}
+
+[2018-09-17 10:36:07] request <-- {"action":"requestresendotp","controller":"user","module":"Api","phone":"5555555555"}  response --> {"code":300,"msg":"OTP request success"}

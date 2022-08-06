@@ -1,0 +1,8 @@
+
+[2018-08-22 20:27:38] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"ehasuda7"}
+
+[2018-08-22 20:27:38] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"ehasuda7"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-08-22 20:29:11] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"ehasuda7"}
+
+[2018-08-22 20:29:11] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"ehasuda7"}  response --> {"code":263,"token":"e7esume5","msg":"Driver approval sucess"}

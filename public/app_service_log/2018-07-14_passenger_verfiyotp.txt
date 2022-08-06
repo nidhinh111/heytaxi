@@ -1,0 +1,34 @@
+
+[2018-07-14 17:15:13] request <-- 
+
+[2018-07-14 17:15:13] request <--   response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-14 17:15:26] request <-- 
+
+[2018-07-14 17:15:26] request <--   response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-14 17:16:11] request <-- 
+
+[2018-07-14 17:16:11] request <--   response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-14 17:16:59] request <-- 
+
+[2018-07-14 17:17:56] request <-- 
+
+[2018-07-14 17:17:57] request <--   response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-14 17:18:09] request <-- 
+
+[2018-07-14 17:18:09] request <--   response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-14 17:18:20] request <-- 
+
+[2018-07-14 17:18:20] request <--   response --> {"code":191,"token":"uta8ejuq","msg":"OTP verfication success","name":"Nidhin","ad_freeq":4}
+
+[2018-07-14 17:18:27] request <-- 
+
+[2018-07-14 17:18:27] request <--   response --> {"code":193,"msg":"OTP verification failed.Invalid OTP code"}
+
+[2018-07-14 17:18:47] request <-- 
+
+[2018-07-14 17:18:47] request <--   response --> {"code":191,"token":"2eqajygu","msg":"OTP verfication success","name":"Nidhin","ad_freeq":4}

@@ -1,0 +1,24 @@
+
+[2018-08-04 11:45:33] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"0"}
+
+[2018-08-04 11:45:33] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-04 11:45:41] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"1"}
+
+[2018-08-04 11:45:41] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-04 11:47:23] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"0"}
+
+[2018-08-04 11:47:23] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-04 11:47:25] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"1"}
+
+[2018-08-04 11:47:25] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"e5e8eduq","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-04 12:32:24] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"pezu9eda","online":"1"}
+
+[2018-08-04 12:32:24] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"pezu9eda","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-04 12:40:19] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"pezu9eda","online":"0"}
+
+[2018-08-04 12:40:19] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"pezu9eda","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}

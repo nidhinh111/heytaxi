@@ -1,0 +1,166 @@
+<?php
+//extract($this->data);
+//print('<pre>');print_r($approval_listing);exit;
+if(isset($this->messages)){  
+    $errclass = 'alert alert-info showblock';
+ }else{
+    $errclass = 'alert alert-info hideblock';
+ } 
+?>
+
+<head>
+    <link rel="stylesheet" href="<?php echo $this->baseUrl('/') ?>assets/alertify/themes/alertify.core.css" />
+    <link rel="stylesheet" href="<?php echo $this->baseUrl('/') ?>assets/alertify/themes/alertify.default.css" id="toggleCSS" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700" rel="stylesheet">
+    <!--<link href="<?php echo $this->baseUrl('/') ?>assets/css/adminstyle.css" rel="stylesheet" type="text/css">-->
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/bootstrap-table.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link href="<?php echo $this->baseUrl('/') ?>assets/css/main.css" rel="stylesheet" type="text/css">-->
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="<?php echo $this->baseUrl('/') ?>assets/css/custom.css" rel="stylesheet" type="text/css">
+<!--    <style>
+        .form-control{
+            text-align: center;
+        }
+        .select2{
+            text-align: center;
+        }
+    </style>-->
+    <title>BYGO - Add Area</title>
+</head>
+
+<div class="container">
+<div class="row">
+    <br>     
+    <div class="wrapper">	
+        <div class="container-fluid primary-content">
+            <!-- PRIMARY CONTENT HEADING -->
+            <form name="restaurantform" id="restaurantform" method="post" enctype="multipart/form-data" class="form-horizontal" role="form">
+                <input type="hidden" name="id" value="">
+            <div class="primary-content-heading clearfix">
+                <ul class="breadcrumb pull-left">
+                    <li><i class="fa fa-home"></i><a href="/Admin/Approval">&nbsp;Approvals</a></li>
+                    <li><a href="/Admin/Area/">Areas</a></li>
+                    <li><strong>Add Area</strong></li>
+                </ul>                 
+               
+                <div style="text-align:right">                   
+                    <button type="submit" class="btn btn-primary" style="width:90px;">Save</button>&nbsp;&nbsp;&nbsp;       
+                    <a href="/Admin/Area"><button type="button" class="btn btn-default">Cancel</button></a>
+                </div>
+            </div>
+            <div class="row"> 
+               
+                <div class="alert alert-info fade in" id="important" style="display:none;">
+                    <i class="icon ion-alert-circled"></i> Please fill out all the mandatory information
+                </div>      
+                <div class="<?php echo $errclass ?>">
+                    <button class="close" data-dismiss="alert">x</button>
+                    <i class="fa fa-warning"></i>
+                    <?php echo $this->messages ?>
+                </div>
+                
+                <!-- Contact Details -->
+		<div class="col-md-12"> 
+                    <div class="widget">
+                        <div class="widget-header clearfix">
+                            <h3><i class="fa fa-edit"></i> 
+                                    <span>Area Details</span>&nbsp;&nbsp;&nbsp;(mandatory fields <span class="errorblock">*</span>)  
+                            </h3>                           
+                        </div>
+                        
+                        <div class="widget-content">
+
+                            <div class="form-group">
+                                <label class="col-sm-4">Area Name <span class="errorblock">*</span></label>
+                                <div class="col-sm-6">
+                                    <input type="text" name="area_name" id="area_name" class="form-control" placeholder="Enter Area Name" autocomplete="off" required >
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-sm-4">Town <span class="errorblock">*</span></label>
+                                <div class="col-sm-6">
+                                    <input type="text" name="area_town" id="area_town" class="form-control" placeholder="Enter Town Name" required/>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-4">District <span class="errorblock">*</span></label>
+                                <div class="col-sm-6">
+                                    <input type="text" name="area_district" id="area_district"  class="form-control" placeholder="Enter District Name" required/>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-sm-4">State <span class="errorblock">*</span></label>
+                                <div class="col-sm-6">
+                                    <input type="text" name="area_state" id="area_state"  class="form-control"  placeholder="Enter State Name" required/>
+                                </div>
+                            </div>
+          
+                            <div class="form-group">
+                                <label class="col-sm-4">Latitude,Longitude <span class="errorblock">*</span></label>
+                                <div class="col-sm-6">
+                                    <input type="text" name="latlong" id="latlong" class="form-control" placeholder="Please click on map marker after selecting area" readonly> 
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>               
+                    <!-- END Contact Details -->		
+                    
+                   <!-- Address Map -->
+                    <div id="map_area">
+							
+                    </div>
+                   <!-- END Address Map -->
+                   
+                </div>
+	
+            </div>
+            
+            </form>
+            
+        </div>
+       
+    </div>
+
+</div>
+    
+</div>
+
+
+
+<link rel="stylesheet" href="<?php echo $this->baseUrl('/') ?>assets/css/jquery-ui.css"> 
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery/jquery-1.10.2.js"></script>
+
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery/jquery-2.1.0.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery-ui/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/bootstrap/bootstrap.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/plugins/select2/select2.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+<script src="<?php echo $this->baseUrl('/'); ?>assets/bootstrap/view-utilities.js" type="text/javascript"></script> 
+
+<script src="<?php echo $this->baseUrl('/') ?>assets/alertify/lib/alertify.min.js"></script>
+<script src="<?php echo $this->baseUrl('/') ?>assets/jquery-ui/jquery-ui-1.11.4.custom.js"></script>
+
+<script type="text/javascript">
+    showmap();
+    function showmap()
+    {
+        $.ajax({
+                url: '/Admin/Area/getmap',
+                type: 'POST',
+                success: function(msg) 
+                {
+                    $('#map_area').html(msg);
+                }
+            });
+    }
+</script>

@@ -1,0 +1,92 @@
+
+[2018-08-28 09:24:56] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"7e7ypuhe","vehicletype":"3","lat":"11.2549026","lng":"75.8282463","versionCode":"1"}
+
+[2018-08-28 09:24:56] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"7e7ypuhe","vehicletype":"3","lat":"11.2549026","lng":"75.8282463","versionCode":"1"}  response --> {"code":203,"msg":"service not provided in your area"}
+
+[2018-08-28 11:03:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:03:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-28 11:03:10] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:03:10] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-28 11:03:12] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:03:12] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-28 11:11:30] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882342","lng":"75.8006127","versionCode":"1"}
+
+[2018-08-28 11:11:30] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882342","lng":"75.8006127","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288239","lng":"75.800621","accuracy":"25.72","name":"Navas","phone":"7012718085","distance":"0.0010224844511227001"}]}
+
+[2018-08-28 11:11:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882419","lng":"75.800619","versionCode":"1"}
+
+[2018-08-28 11:11:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882419","lng":"75.800619","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288242","lng":"75.800621","accuracy":"14.787","name":"Navas","phone":"7012718085","distance":"0.0002325430385957901"}]}
+
+[2018-08-28 11:11:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882419","lng":"75.800619","versionCode":"1"}
+
+[2018-08-28 11:11:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882419","lng":"75.800619","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288242","lng":"75.800621","accuracy":"14.787","name":"Navas","phone":"7012718085","distance":"0.0002325430385957901"}]}
+
+[2018-08-28 11:12:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882452","lng":"75.8006215","versionCode":"1"}
+
+[2018-08-28 11:12:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882452","lng":"75.8006215","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288242","lng":"75.800621","accuracy":"14.787","name":"Navas","phone":"7012718085","distance":"0.0003002117719193212"}]}
+
+[2018-08-28 11:12:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882452","lng":"75.8006215","versionCode":"1"}
+
+[2018-08-28 11:12:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.2882452","lng":"75.8006215","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288242","lng":"75.800621","accuracy":"14.787","name":"Navas","phone":"7012718085","distance":"0.0003002117719193212"}]}
+
+[2018-08-28 11:12:09] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:12:09] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288247","lng":"75.800621","accuracy":"16","name":"Navas","phone":"7012718085","distance":"0.00021228177971618117"}]}
+
+[2018-08-28 11:12:09] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:12:09] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288247","lng":"75.800621","accuracy":"16","name":"Navas","phone":"7012718085","distance":"0.00021228177971618117"}]}
+
+[2018-08-28 11:12:24] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:12:24] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288247","lng":"75.800621","accuracy":"15.563","name":"Navas","phone":"7012718085","distance":"0.00021228177971618117"}]}
+
+[2018-08-28 11:12:24] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:12:24] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288247","lng":"75.800621","accuracy":"15.563","name":"Navas","phone":"7012718085","distance":"0.00021228177971618117"}]}
+
+[2018-08-28 11:12:28] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:12:28] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288247","lng":"75.800621","accuracy":"15.563","name":"Navas","phone":"7012718085","distance":"0.00021228177971618117"}]}
+
+[2018-08-28 11:12:28] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:12:28] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288247","lng":"75.800621","accuracy":"15.563","name":"Navas","phone":"7012718085","distance":"0.00021228177971618117"}]}
+
+[2018-08-28 11:13:01] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"u7a9evyd","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:13:01] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"u7a9evyd","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"27","lat":"11.288247","lng":"75.800621","accuracy":"16.91","name":"Navas","phone":"7012718085","distance":"0.00021228177971618117"}]}
+
+[2018-08-28 11:25:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:25:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"21","lat":"11.288238","lng":"75.800621","accuracy":"920.593","name":"ased","phone":"8078450993","distance":"0.0010740702874516247"}]}
+
+[2018-08-28 11:25:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:25:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"21","lat":"11.288238","lng":"75.800621","accuracy":"920.593","name":"ased","phone":"8078450993","distance":"0.0010740702874516247"}]}
+
+[2018-08-28 11:26:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:26:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"21","lat":"11.288238","lng":"75.800621","accuracy":"920.593","name":"ased","phone":"8078450993","distance":"0.0010740702874516247"}]}
+
+[2018-08-28 11:26:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:26:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"21","lat":"11.288238","lng":"75.800621","accuracy":"920.593","name":"ased","phone":"8078450993","distance":"0.0010740702874516247"}]}
+
+[2018-08-28 11:26:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:26:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"21","lat":"11.288238","lng":"75.800621","accuracy":"920.593","name":"ased","phone":"8078450993","distance":"0.0010740702874516247"}]}
+
+[2018-08-28 11:26:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:26:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"21","lat":"11.288238","lng":"75.800621","accuracy":"920.593","name":"ased","phone":"8078450993","distance":"0.0010740702874516247"}]}
+
+[2018-08-28 11:28:07] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}
+
+[2018-08-28 11:28:07] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"2uruvape","vehicletype":"3","lat":"11.288247","lng":"75.800623","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"21","lat":"11.288238","lng":"75.800621","accuracy":"920.593","name":"ased","phone":"8078450993","distance":"0.0010740702874516247"}]}

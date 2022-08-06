@@ -1,0 +1,48 @@
+
+[2018-09-17 00:00:55] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 00:00:55] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"5e2yrevu","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-17 00:27:55] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880282"}
+
+[2018-09-17 00:27:55] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880282"}  response --> {"code":191,"token":"gutyzusa","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-17 00:35:48] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 00:35:48] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"u5y9evas","msg":"OTP verfication success","name":"Akash","ad_freeq":4}
+
+[2018-09-17 00:53:36] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 00:53:36] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"aredetyh","msg":"OTP verfication success","name":"Akash","ad_freeq":4}
+
+[2018-09-17 00:58:31] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 00:58:31] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"4ygasube","msg":"OTP verfication success","name":"Akash","ad_freeq":4}
+
+[2018-09-17 01:17:58] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 01:17:58] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"u4are2yg","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-17 07:32:07] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 07:32:07] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"2ehy2e9y","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-17 09:51:37] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Navas Shareef","otp":"123456","phone":"9746761790"}
+
+[2018-09-17 09:51:37] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Navas Shareef","otp":"123456","phone":"9746761790"}  response --> {"code":191,"token":"6etepugy","msg":"OTP verfication success","name":"Navas Shareef","ad_freeq":4}
+
+[2018-09-17 09:52:34] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 09:52:34] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"usu6a5uj","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-17 10:36:22] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"5555555555"}
+
+[2018-09-17 10:36:22] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Nidhin","otp":"123456","phone":"5555555555"}  response --> {"code":191,"token":"esy3ehyp","msg":"OTP verfication success","name":"Nidhin","ad_freeq":4}
+
+[2018-09-17 14:16:10] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}
+
+[2018-09-17 14:16:10] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"akash","otp":"123456","phone":"9562880285"}  response --> {"code":191,"token":"ypary3yj","msg":"OTP verfication success","name":"akash","ad_freeq":4}
+
+[2018-09-17 19:30:49] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"123456","otp":"123456","phone":"9633381469"}
+
+[2018-09-17 19:30:49] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"123456","otp":"123456","phone":"9633381469"}  response --> {"code":191,"token":"9uvusy3a","msg":"OTP verfication success","name":"123456","ad_freeq":4}

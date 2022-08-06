@@ -1,0 +1,8 @@
+
+[2018-08-31 22:16:58] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"yma7eryj","vehicletype":"3","lat":"11.3923311","lng":"76.0423583","versionCode":"1"}
+
+[2018-08-31 22:16:58] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"yma7eryj","vehicletype":"3","lat":"11.3923311","lng":"76.0423583","versionCode":"1"}  response --> {"code":203,"msg":"service not provided in your area"}
+
+[2018-08-31 22:17:16] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"yma7eryj","vehicletype":"2","lat":"11.3969133","lng":"76.04141","versionCode":"1"}
+
+[2018-08-31 22:17:16] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"yma7eryj","vehicletype":"2","lat":"11.3969133","lng":"76.04141","versionCode":"1"}  response --> {"code":203,"msg":"service not provided in your area"}

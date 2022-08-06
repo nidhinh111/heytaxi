@@ -1,0 +1,60 @@
+
+[2018-07-26 12:26:18] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.640803","lng":"75.587293"}
+
+[2018-07-26 12:26:18] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.640803","lng":"75.587293"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"1.9197610940249288"}]}
+
+[2018-07-26 12:33:39] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.640803","lng":"75.587293"}
+
+[2018-07-26 12:33:39] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.640803","lng":"75.587293"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"1.9197610940249288"}]}
+
+[2018-07-26 12:37:23] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6344949","lng":"75.5848289"}
+
+[2018-07-26 12:37:23] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6344949","lng":"75.5848289"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"2.6052295776685197"}]}
+
+[2018-07-26 12:43:36] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6116848","lng":"75.5861424"}
+
+[2018-07-26 12:43:36] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6116848","lng":"75.5861424"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"4.760063098328085"}]}
+
+[2018-07-26 12:45:25] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.640803","lng":"75.587293"}
+
+[2018-07-26 12:45:25] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.640803","lng":"75.587293"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"1.9197610940249288"}]}
+
+[2018-07-26 12:53:30] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.633728","lng":"75.5834468"}
+
+[2018-07-26 12:53:30] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.633728","lng":"75.5834468"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"2.769332729845971"}]}
+
+[2018-07-26 13:25:14] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.636106","lng":"75.5876048"}
+
+[2018-07-26 13:25:14] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.636106","lng":"75.5876048"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"2.273462300442448"}]}
+
+[2018-07-26 17:52:41] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1358749","lng":"72.8288054"}
+
+[2018-07-26 17:52:41] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1358749","lng":"72.8288054"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"2","name":"Juhu","lat":"19.098801","lng":"72.832100","status":"1","distance":"4.136972824210798"}]}
+
+[2018-07-26 17:52:43] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1358749","lng":"72.8288054"}
+
+[2018-07-26 17:52:43] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1358749","lng":"72.8288054"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"2","name":"Juhu","lat":"19.098801","lng":"72.832100","status":"1","distance":"4.136972824210798"}]}
+
+[2018-07-26 21:56:43] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6343262","lng":"75.5848904"}
+
+[2018-07-26 21:56:43] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6343262","lng":"75.5848904"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"2.614923858523152"}]}
+
+[2018-07-26 22:19:08] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6408027","lng":"75.5872999"}
+
+[2018-07-26 22:19:08] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6408027","lng":"75.5872999"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"1.9192133340066333"}]}
+
+[2018-07-26 22:34:35] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6318197","lng":"75.5799869"}
+
+[2018-07-26 22:34:35] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6318197","lng":"75.5799869"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"3.1833700764577215"}]}
+
+[2018-07-26 22:41:32] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6267791","lng":"75.5853077"}
+
+[2018-07-26 22:41:32] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6267791","lng":"75.5853077"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"3.2708759463116204"}]}
+
+[2018-07-26 22:49:16] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}
+
+[2018-07-26 22:49:16] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"2","name":"Juhu","lat":"19.098801","lng":"72.832100","status":"1","distance":"5.558531824734805"}]}
+
+[2018-07-26 23:09:43] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6344949","lng":"75.5848289"}
+
+[2018-07-26 23:09:43] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.6344949","lng":"75.5848289"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"1","name":"Orkatteri","lat":"11.652064","lng":"75.600655","status":"1","distance":"2.6052295776685197"}]}

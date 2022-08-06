@@ -1,0 +1,36 @@
+
+[2018-09-07 12:50:02] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881658","lng":"75.8005081","acc":"16.0"}
+
+[2018-09-07 12:50:02] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881658","lng":"75.8005081","acc":"16.0"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 12:50:10] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2879484","lng":"75.800436","acc":"41.427"}
+
+[2018-09-07 12:50:10] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2879484","lng":"75.800436","acc":"41.427"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 12:50:21] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881653","lng":"75.8005079","acc":"18.622"}
+
+[2018-09-07 12:50:21] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881653","lng":"75.8005079","acc":"18.622"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 12:50:40] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881658","lng":"75.8005081","acc":"16.0"}
+
+[2018-09-07 12:50:40] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881658","lng":"75.8005081","acc":"16.0"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 12:50:51] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881658","lng":"75.8005081","acc":"19.006"}
+
+[2018-09-07 12:50:51] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881658","lng":"75.8005081","acc":"19.006"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 14:04:40] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"39.56"}
+
+[2018-09-07 14:04:40] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"39.56"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 14:05:10] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"35.14"}
+
+[2018-09-07 14:05:10] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"35.14"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 14:05:20] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"34.655"}
+
+[2018-09-07 14:05:20] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"34.655"}  response --> {"code":282,"msg":"driver location success"}
+
+[2018-09-07 14:05:25] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"31.166"}
+
+[2018-09-07 14:05:25] request <-- {"action":"driverlocation","controller":"driver","module":"Api","token":"9avazapy","lat":"11.2881769","lng":"75.8004314","acc":"31.166"}  response --> {"code":282,"msg":"driver location success"}

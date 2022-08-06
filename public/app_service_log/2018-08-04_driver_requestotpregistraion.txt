@@ -1,0 +1,12 @@
+
+[2018-08-04 11:48:52] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"1234567860"}
+
+[2018-08-04 11:48:52] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"1234567860"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-04 12:23:40] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4567890123"}
+
+[2018-08-04 12:23:40] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4567890123"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-04 12:31:34] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"6666666655"}
+
+[2018-08-04 12:31:34] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"6666666655"}  response --> {"code":179,"msg":"OTP request success"}

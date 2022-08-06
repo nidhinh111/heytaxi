@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+#cont{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+#map_canvas{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+</style>
+
+<script type="text/javascript" src='https://maps.google.com/maps/api/js?key=AIzaSyDh6UscAbnr_5zqb6SinOTptKmlcWOTx1Q&libraries=places&callback=initialize'></script>
+<script type="text/javascript">
+    
+    var latitude = "<?php echo $this->data['lat']; ?>";
+    var longitude = "<?php echo $this->data['long']; ?>";
+    var map;
+    var geocoder;
+    var markers = [];
+    var infowindow;
+
+    function initialize(){
+
+        infowindow = new google.maps.InfoWindow({maxWidth: 200 });
+        geocoder = new google.maps.Geocoder();
+
+        var myLatLng = new google.maps.LatLng(latitude,longitude); 
+       
+        var mapProp = {
+            zoom:15,
+            center: myLatLng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+        
+        map = new google.maps.Map(document.getElementById('map-canvas'),mapProp);   
+        console.log(map);
+        addMarker(myLatLng);
+    
+        /* for search box  */
+         
+        var input = (document.getElementById('pac-input'));
+       // map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+        var searchBox = new google.maps.places.SearchBox(
+        /** @type {HTMLInputElement} */(input));
+      
+        google.maps.event.addListener(searchBox, 'places_changed', function(){
+            var places = searchBox.getPlaces();
+            deleteMarkers();
+            if (places.length > 0){
+                var place = places[0];	
+                addMarker(place.geometry.location);
+                map.panTo(place.geometry.location);
+            }       
+        });
+
+        google.maps.event.addListener(map,'bounds_changed', function(){
+            var bounds = map.getBounds();
+           
+            searchBox.setBounds(bounds);
+        });
+        
+        //farman change to show marker on click
+        
+        google.maps.event.addListener(map,'click', function(event){
+            addMarker(event.latLng);
+        });
+
+    }
+
+
+    function addMarker(location){
+        deleteMarkers();
+        var marker = new google.maps.Marker({   
+            position: location,
+            map: map,
+            draggable: true,
+            animation: google.maps.Animation.DROP,
+            title:'Hotspot Location' 
+        });    
+
+        markers.push(marker);
+
+        google.maps.event.addListener(marker, "click", function (event){	
+            geocodePosition(marker, this.position);
+        });
+        
+        google.maps.event.addListener(
+            marker,
+            'drag',
+            function(){
+                latitude = marker.position.lat();
+                longitude = marker.position.lng();
+               
+            }
+        );
+
+        google.maps.event.addListener(marker,'dragend',function(event) {    
+            infowindow.close(); 
+        });
+    }
+
+    // Sets the map on all markers in the array.
+    function setAllMap(map){
+
+      for (var i = 0; i < markers.length; i++){
+        markers[i].setMap(map);
+      }
+    }
+
+    // Removes the markers from the map, but keeps them in the array.
+    function clearMarkers(){
+      setAllMap(null);
+    }
+
+    // Shows any markers currently in the array.
+    function showMarkers(){
+      setAllMap(map);
+    }
+
+    // Deletes all markers in the array by removing references to them.
+    function deleteMarkers(){
+      clearMarkers();
+      markers = [];
+    }
+    
+    function geocodePosition(marker, pos){
+        
+        geocoder.geocode({
+            latLng: pos
+        },function(responses){
+              
+            if (responses && responses.length > 0) {
+                marker.formatted_address = responses[0].formatted_address;
+            } else {
+                marker.formatted_address = 'Cannot determine address at this location.';
+            }
+            
+            infowindow.setContent(marker.formatted_address+"<br>coordinates: "+marker.getPosition().toUrlValue(6));
+            infowindow.open(map, marker);
+            
+            var post_data = {      
+                address_from_map: marker.formatted_address,
+                lat_lon_from_map: pos.toString()
+            };
+            
+            $.ajax({
+         
+                url: '/Admin/Area/updatemapaddress',
+                type: 'POST',
+                dataType: 'json',
+                data: post_data,
+
+                success: function(msg) 
+                {
+//                    $('#zone_area_hotspot_address').val(msg.address_from_map);
+                    $('#latlong').val(msg.lat_lon_from_map);
+                  
+                }
+
+            });
+          
+        });
+        
+    }
+    
+    function getAddress()
+    {
+        var input = $('#pac').val();
+
+        var str_array = input.split(',');
+        var lat = str_array[0];
+        var long = str_array[1];
+    
+         
+       var myLatLng = new google.maps.LatLng(lat,long); 
+       
+         var input1 = (document.getElementById('pac'));
+         
+         var searchBox = new google.maps.places.SearchBox(
+        /** @type {HTMLInputElement} */(input1));
+         google.maps.event.addListener(searchBox, 'places_changed', function(){
+            var places = searchBox.getPlaces();
+                 deleteMarkers();
+            if (places.length > 0){
+                var place = places[0];	
+                addMarker(place.geometry.location);
+                map.panTo(place.geometry.location);
+            }       
+        });
+
+        google.maps.event.addListener(map,'bounds_changed', function(){
+            var bounds = map.getBounds();
+            searchBox.setBounds(bounds);
+        });
+        console.log(lat,long);
+       
+       
+        var mapProp = {
+            zoom:15,
+            center: myLatLng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+        map = new google.maps.Map(document.getElementById('map-canvas'),mapProp);
+        
+           var marker = new google.maps.Marker({
+                map: map,
+                position: myLatLng
+            });
+          
+            map.setCenter(marker.getPosition());      
+            var content = "<b>Lattitude - " + lat + '</b></br> <b>Longitude - '+ long+'</b></br>';
+            var infowindow = new google.maps.InfoWindow();
+            google.maps.event.addListener(marker, "click", function (event){	
+            geocodePosition(marker, this.position);
+        });
+        
+     $("#pac-input").css("visibility","hidden");
+   
+        }
+    
+
+</script>
+
+</head>
+<body onload="initialize()">
+
+<div class="widget" style="background: #2131f338;">
+        <div class="widget-header clearfix">
+                <h3><i class="fa fa-map"></i> 
+                    &nbsp;&nbsp;&nbsp;
+                    <span>Address MAP</span>
+                        - click the marker in the map to set the address
+                </h3>
+              
+        </div>
+        <div class="widget-content no-padding">
+            
+            <input type="text" id="pac-input" class="form-control center" placeholder='Find Place' style="width:100%;" onkeydown="if (event.keyCode == 13) {initialize(); return false;}">
+            <div class="google-map">
+               
+                <div id="map-canvas" style="height:100%;width:100%;"> </div>
+            </div>
+        </div>
+</div>
+
+</body>
+</html>

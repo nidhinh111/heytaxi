@@ -1,0 +1,4 @@
+
+[2018-07-29 09:31:29] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"biju","otp":"123456","phone":"4848484848"}
+
+[2018-07-29 09:31:29] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"biju","otp":"123456","phone":"4848484848"}  response --> {"code":191,"token":"8e6ypypa","msg":"OTP verfication success","name":"biju"}

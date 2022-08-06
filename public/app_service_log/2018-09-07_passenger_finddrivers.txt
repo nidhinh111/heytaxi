@@ -1,0 +1,20 @@
+
+[2018-09-07 14:05:02] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881705","lng":"75.8004765","versionCode":"1"}
+
+[2018-09-07 14:05:02] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881705","lng":"75.8004765","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"28","lat":"11.288177","lng":"75.800430","accuracy":"39.56","name":"akadham","phone":"4848484575","distance":"0.005081477781285406"}]}
+
+[2018-09-07 14:05:42] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}
+
+[2018-09-07 14:05:42] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-09-07 14:05:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}
+
+[2018-09-07 14:05:46] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-09-07 14:05:47] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}
+
+[2018-09-07 14:05:47] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-09-07 14:05:49] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}
+
+[2018-09-07 14:05:49] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"y6avu4u3","vehicletype":"3","lat":"11.2881794","lng":"75.8004494","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}

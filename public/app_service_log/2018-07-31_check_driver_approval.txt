@@ -1,0 +1,28 @@
+
+[2018-07-31 23:42:23] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"2yrena7a"}
+
+[2018-07-31 23:42:23] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"2yrena7a"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-07-31 23:42:31] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"2yrena7a"}
+
+[2018-07-31 23:42:31] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"2yrena7a"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-07-31 23:43:21] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"2yrena7a"}
+
+[2018-07-31 23:43:21] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"2yrena7a"}  response --> {"code":263,"token":"8ebavene","msg":"Driver approval sucess"}
+
+[2018-07-31 23:55:26] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}
+
+[2018-07-31 23:55:26] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-07-31 23:55:27] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}
+
+[2018-07-31 23:55:27] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-07-31 23:55:28] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}
+
+[2018-07-31 23:55:29] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}  response --> {"code":262,"msg":"Driver approval pending"}
+
+[2018-07-31 23:56:40] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}
+
+[2018-07-31 23:56:40] request <-- {"action":"checkdriverapproval","controller":"driver","module":"Api","token":"e9udyzuh"}  response --> {"code":263,"token":"rujaqeju","msg":"Driver approval sucess"}

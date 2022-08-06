@@ -1,0 +1,16 @@
+
+[2018-09-11 22:36:22] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}
+
+[2018-09-11 22:36:22] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}  response --> {"code":252,"msg":"no near area found"}
+
+[2018-09-11 22:36:24] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}
+
+[2018-09-11 22:36:24] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}  response --> {"code":252,"msg":"no near area found"}
+
+[2018-09-11 22:36:25] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}
+
+[2018-09-11 22:36:25] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}  response --> {"code":252,"msg":"no near area found"}
+
+[2018-09-11 22:36:27] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}
+
+[2018-09-11 22:36:27] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.7519616","lng":"75.4859932"}  response --> {"code":252,"msg":"no near area found"}

@@ -1,0 +1,4 @@
+
+[2018-09-15 17:55:42] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"ma5e6udu","vehicletype":"2","lat":"19.2294197","lng":"72.979115","versionCode":"1"}
+
+[2018-09-15 17:55:42] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"ma5e6udu","vehicletype":"2","lat":"19.2294197","lng":"72.979115","versionCode":"1"}  response --> {"code":203,"msg":"service not provided in your area"}

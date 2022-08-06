@@ -1,0 +1,73 @@
+/*Added By Ashraf Khan*/
+.primary-content-heading {margin-bottom: 10px;}
+.top-right {margin-top: 5px;line-height: 2.9;}
+.no-margin {margin: 0;}
+.dropdown-scroll {overflow-x: hidden;overflow-y: auto;}
+.table-responsive {width: 100%;overflow-x: auto;overflow-y: auto;-webkit-overflow-scrolling: touch;-ms-overflow-style: -ms-autohiding-scrollbar;}
+.table-height {min-height: 30em;}
+th {white-space: normal;}
+.tooltip-comm .tooltiptext-top {visibility: hidden;width:auto;background-color: #fff;border:1px solid #424143;color: #000;text-align: center;
+    border-radius: 6px;padding: 5px;position: absolute;z-index: 3;bottom: 123%;left: 50%;margin-left: -300px;font-size:12px; width:600px;}
+.tooltip-comm .tooltiptext-top::after {content: "";position: absolute;top: 100%;left: 50%;margin-left: -5px;border-width: 5px;border-style: solid;border-color: #424143 transparent transparent transparent !important;}
+.tooltip-comm:hover .tooltiptext-top {visibility: visible;}
+.tooltip-merchant .tooltiptext-bottom {visibility: hidden;width:auto;background-color: #fff;border:1px solid #424143;color: #000;border-radius: 6px;padding: 3px;position: absolute;z-index: 3;top: 105%;left: 50%;margin-left: -115px;font-size:12px; width:230px; text-align:left;}
+.tooltip-merchant .tooltiptext-bottom::after {content: "";position: absolute;bottom: 100%;left: 50%;margin-left: -5px;border-width: 5px;border-style: solid;border-color: transparent transparent black transparent;}
+button.multiselect.btn {padding: 4px 10px;}
+.form-control {height: 30px !important;padding: 5px !important;}
+/*.btn {padding: 4px 8px;}*/
+.btn-width {min-width:150px;}
+
+.profile-box {background: rgba(255, 255, 255, 0.8);position: relative;display: inline-block;margin: 17px;vertical-align: top;border: 1px solid #acacac;padding: 6px 6px 6px 6px;}
+.table {margin-bottom: 10px;}
+div.dataTables_paginate {margin-top: 6px !important;}
+
+/*.navbar-fixed-top, .navbar-fixed-bottom {z-index: 10000;}*/
+
+.date-picker-wrapper {z-index: 9999 !important;}
+.select2-container .select2-choice > .select2-chosen {margin-right: 38px;}
+
+/****** Table ******/
+.table-no-pad > tbody > tr > td {padding: 0 5px;}
+.default {background: #ebebeb;}
+
+/****** Bootstrap Table ******/
+.fixed-table-container {border: 0;border-radius: 0;}
+.fixed-table-container thead th:first-child {border-top-left-radius: 0;}
+.fixed-table-container tbody td .th-inner, .fixed-table-container thead th .th-inner {line-height: 1.42857143;}
+/****** WIZARD ******/
+.wizard-circle .nav li {width: 8em;}
+fieldset {margin-bottom: 20px;}
+.wizard-circle legend {background: #1688ae;border: 3px solid #106581;}
+#demo-wizard2 input {width: 100%;}
+#demo-wizard2 fieldset {min-height: auto;}
+#demo-wizard2 #tab3 {background: none;min-height: auto;padding: 0;}
+
+/******	Star Rating ******/
+.star-rating {line-height:32px;font-size:1.25em;}
+.star-rating .fa-star{color: yellow;}
+
+.bell-mgs {position: relative;width: 30px;height: 20px;display: inline-block;vertical-align: middle;}
+span.num {position: absolute;top: -3px;right: 6px;padding: 0px 5px;border-radius: 30px;text-align: center;font-size: 10px;color: #fff;background: #ef2020;}
+/*Media Query*/
+@media (min-width: 768px) {
+    .modal-dialog {width: 600px;}
+    .modal-sm {width: 300px;}
+    .modal-xl {width: 90%;max-width:1200px;}
+}
+@media (min-width: 992px) {
+    .modal-lg {width: 900px;}
+}
+
+.tabclk {
+	cursor: default; 
+	background: #ffffff;
+	border-bottom: none !important;
+}
+
+.ltabs {
+	cursor: pointer;
+	background: #ebebeb;
+	border-bottom: 1px solid rgba(172, 172, 172, 0.3) !important;
+}
+
+

@@ -1,0 +1,4 @@
+
+[2018-08-22 19:54:21] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"aswin","otp":"123456","phone":"4848484848"}
+
+[2018-08-22 19:54:21] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"aswin","otp":"123456","phone":"4848484848"}  response --> {"code":191,"token":"jezu5apa","msg":"OTP verfication success","name":"aswin"}

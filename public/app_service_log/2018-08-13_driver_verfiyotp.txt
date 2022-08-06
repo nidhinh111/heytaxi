@@ -1,0 +1,4 @@
+
+[2018-08-13 21:49:50] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"ashokam","otp":"123456","phone":"4848484848"}
+
+[2018-08-13 21:49:50] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"ashokam","otp":"123456","phone":"4848484848"}  response --> {"code":191,"token":"agaja5ut","msg":"OTP verfication success","name":"ashokam"}

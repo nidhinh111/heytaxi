@@ -1,0 +1,32 @@
+
+[2018-08-12 08:21:10] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4eduzejy","online":"0"}
+
+[2018-08-12 08:21:10] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4eduzejy","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-12 14:31:33] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"gubaqu4e","online":"1"}
+
+[2018-08-12 14:31:33] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"gubaqu4e","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-12 14:35:28] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"gubaqu4e","online":"0"}
+
+[2018-08-12 14:35:28] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"gubaqu4e","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-12 15:13:25] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"1"}
+
+[2018-08-12 15:13:25] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-12 15:20:53] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"0"}
+
+[2018-08-12 15:20:53] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-12 15:21:15] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"1"}
+
+[2018-08-12 15:21:15] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-12 15:21:24] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"1"}
+
+[2018-08-12 15:21:24] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"1"}  response --> {"code":272,"msg":"change online failed","current_state":1}
+
+[2018-08-12 15:26:29] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"0"}
+
+[2018-08-12 15:26:29] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"4equbehy","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}

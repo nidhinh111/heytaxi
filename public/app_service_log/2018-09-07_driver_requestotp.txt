@@ -1,0 +1,4 @@
+
+[2018-09-07 11:35:49] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484575"}
+
+[2018-09-07 11:35:50] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484575"}  response --> {"code":185,"msg":"Driver registration needed"}

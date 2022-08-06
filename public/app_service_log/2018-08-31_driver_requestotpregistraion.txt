@@ -1,0 +1,4 @@
+
+[2018-08-31 17:10:28] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"9605617676"}
+
+[2018-08-31 17:10:28] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"9605617676"}  response --> {"code":179,"msg":"OTP request success"}

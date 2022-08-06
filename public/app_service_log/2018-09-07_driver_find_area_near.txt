@@ -1,0 +1,4 @@
+
+[2018-09-07 11:36:14] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.2881658","lng":"75.8005081"}
+
+[2018-09-07 11:36:14] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.2881658","lng":"75.8005081"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"3","name":"Iqra","lat":"11.285801","lng":"75.798027","status":"1","distance":"0.3772843885442839"}]}

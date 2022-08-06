@@ -1,0 +1,8 @@
+
+[2018-08-31 17:09:44] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.2548682","lng":"75.8285364"}
+
+[2018-08-31 17:09:44] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.2548682","lng":"75.8285364"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"3","name":"Iqra","lat":"11.285801","lng":"75.798027","status":"1","distance":"4.785390078134791"}]}
+
+[2018-08-31 17:09:50] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.2548682","lng":"75.8285364"}
+
+[2018-08-31 17:09:50] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"11.2548682","lng":"75.8285364"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"3","name":"Iqra","lat":"11.285801","lng":"75.798027","status":"1","distance":"4.785390078134791"}]}

@@ -1,0 +1,4 @@
+
+[2018-08-31 22:16:30] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Jyothis","otp":"123456","phone":"9605617676"}
+
+[2018-08-31 22:16:30] request <-- {"action":"verfiyotp","controller":"user","module":"Api","name":"Jyothis","otp":"123456","phone":"9605617676"}  response --> {"code":191,"token":"yma7eryj","msg":"OTP verfication success","name":"Jyothis","ad_freeq":4}

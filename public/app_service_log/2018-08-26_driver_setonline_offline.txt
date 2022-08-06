@@ -1,0 +1,48 @@
+
+[2018-08-26 11:32:08] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"pezu9eda","online":"1"}
+
+[2018-08-26 11:32:08] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"pezu9eda","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-26 12:03:10] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}
+
+[2018-08-26 12:03:10] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}  response --> {"code":272,"msg":"change online failed","current_state":1}
+
+[2018-08-26 12:03:27] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}
+
+[2018-08-26 12:03:27] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-26 12:03:28] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api"}
+
+[2018-08-26 12:03:28] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api"}  response --> {"code":272,"msg":"change offline failed","current_state":}
+
+[2018-08-26 12:03:35] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}
+
+[2018-08-26 12:03:35] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-26 12:32:09] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}
+
+[2018-08-26 12:32:09] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-26 12:32:12] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}
+
+[2018-08-26 12:32:12] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-26 12:40:15] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}
+
+[2018-08-26 12:40:15] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-26 12:40:16] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}
+
+[2018-08-26 12:40:16] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-08-26 12:50:54] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}
+
+[2018-08-26 12:50:54] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-08-26 12:50:54] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}
+
+[2018-08-26 12:50:54] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"uvere5an","online":"0"}  response --> {"code":272,"msg":"change offline failed","current_state":0}
+
+[2018-08-26 13:23:19] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"asy6ejys","online":"1"}
+
+[2018-08-26 13:23:19] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"asy6ejys","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}

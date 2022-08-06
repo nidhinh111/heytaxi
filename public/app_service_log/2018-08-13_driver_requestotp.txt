@@ -1,0 +1,8 @@
+
+[2018-08-13 21:46:23] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4272424642"}
+
+[2018-08-13 21:46:23] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4272424642"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-13 21:49:45] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484848"}
+
+[2018-08-13 21:49:45] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484848"}  response --> {"code":179,"msg":"OTP request success"}

@@ -1,0 +1,4 @@
+
+[2018-07-27 15:03:11] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"rijo","otp":"123456","phone":"4848484848"}
+
+[2018-07-27 15:03:11] request <-- {"action":"verfiyotp","controller":"driver","module":"Api","name":"rijo","otp":"123456","phone":"4848484848"}  response --> {"code":191,"token":"hatu3a9y","msg":"OTP verfication success","name":"rijo"}

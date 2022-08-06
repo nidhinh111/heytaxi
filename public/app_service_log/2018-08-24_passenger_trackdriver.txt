@@ -1,0 +1,4 @@
+
+[2018-08-24 10:49:22] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"reqava8u","driver_id":"25"}
+
+[2018-08-24 10:49:22] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"reqava8u","driver_id":"25"}  response --> {"code":211,"msg":"driver location fetch success","drivers":[{"id":"25","driver_id":"25","lat":"11.664487","lng":"75.561028","accuracy":"11.3","update_time":"2018-08-24 10:46:14"}]}

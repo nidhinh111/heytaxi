@@ -1,0 +1,124 @@
+
+[2018-08-11 10:30:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}
+
+[2018-08-11 10:30:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.7482303816801791"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9926581579866591"}]}
+
+[2018-08-11 10:30:27] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}
+
+[2018-08-11 10:30:27] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.7482303816801791"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9926581579866591"}]}
+
+[2018-08-11 10:59:16] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}
+
+[2018-08-11 10:59:16] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.7482303816801791"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9926581579866591"}]}
+
+[2018-08-11 11:00:15] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}
+
+[2018-08-11 11:00:15] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6399494","lng":"75.586798","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.7482303816801791"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9926581579866591"}]}
+
+[2018-08-11 11:00:48] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6407917","lng":"75.5847433","versionCode":"1"}
+
+[2018-08-11 11:00:48] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6407917","lng":"75.5847433","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.7226956903819588"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9627588114883898"}]}
+
+[2018-08-11 11:28:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6405804","lng":"75.5839319","versionCode":"1"}
+
+[2018-08-11 11:28:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6405804","lng":"75.5839319","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6756592113332284"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9099185902362539"}]}
+
+[2018-08-11 11:29:05] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6407108","lng":"75.5838512","versionCode":"1"}
+
+[2018-08-11 11:29:05] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6407108","lng":"75.5838512","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6879528800690694"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9210612586922653"}]}
+
+[2018-08-11 11:30:49] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6404482","lng":"75.5838853","versionCode":"1"}
+
+[2018-08-11 11:30:49] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6404482","lng":"75.5838853","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6602023896524373"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.8943693749714182"}]}
+
+[2018-08-11 11:35:20] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6407817","lng":"75.58374","versionCode":"1"}
+
+[2018-08-11 11:35:20] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6407817","lng":"75.58374","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"18","lat":"11.640647","lng":"75.584061","accuracy":"77.588","name":"Jishnu P","phone":"9526684979","distance":"0.03800258910362915"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6933203785349109"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9250926557394842"}]}
+
+[2018-08-11 11:37:07] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6404223","lng":"75.5839687","versionCode":"1"}
+
+[2018-08-11 11:37:07] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6404223","lng":"75.5839687","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"18","lat":"11.640647","lng":"75.584061","accuracy":"104.1","name":"Jishnu P","phone":"9526684979","distance":"0.026911770927587564"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6594499510304453"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.8945009680715393"}]}
+
+[2018-08-11 11:37:37] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6403766","lng":"75.5839263","versionCode":"1"}
+
+[2018-08-11 11:37:37] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6403766","lng":"75.5839263","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"18","lat":"11.640379","lng":"75.583931","accuracy":"20.402","name":"Jishnu P","phone":"9526684979","distance":"0.0005696117877960207"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6534405251272529"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.8882119037224929"}]}
+
+[2018-08-11 11:37:37] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6403766","lng":"75.5839263","versionCode":"1"}
+
+[2018-08-11 11:37:37] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.6403766","lng":"75.5839263","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"18","lat":"11.640379","lng":"75.583931","accuracy":"20.402","name":"Jishnu P","phone":"9526684979","distance":"0.0005696117877960207"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6534405251272529"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.8882119037224929"}]}
+
+[2018-08-11 11:38:15] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.640647","lng":"75.5840611","versionCode":"1"}
+
+[2018-08-11 11:38:15] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"6e2a5y4a","vehicletype":"3","lat":"11.640647","lng":"75.5840611","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"18","lat":"11.640647","lng":"75.584061","accuracy":"90.205","name":"Jishnu P","phone":"9526684979","distance":"0.00009493529796600342"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6861040653195992"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9213948225464297"}]}
+
+[2018-08-11 19:28:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}
+
+[2018-08-11 19:28:08] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6667441763810974"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9118258177947832"}]}
+
+[2018-08-11 19:29:38] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}
+
+[2018-08-11 19:29:38] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"17","lat":"11.639566","lng":"75.586067","accuracy":"2900","name":"Arjith","phone":"4848484824","distance":"0.0003422940846678775"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6667441763810974"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9118258177947832"}]}
+
+[2018-08-11 19:30:21] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6405933","lng":"75.58341","versionCode":"1"}
+
+[2018-08-11 19:30:21] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6405933","lng":"75.58341","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"17","lat":"11.640593","lng":"75.583412","accuracy":"10","name":"Arjith","phone":"4848484824","distance":"0.0002685175718629059"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6668017178727108"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.8952869595070951"}]}
+
+[2018-08-11 19:31:11] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}
+
+[2018-08-11 19:31:12] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-11 19:36:09] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}
+
+[2018-08-11 19:36:09] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-11 19:36:12] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}
+
+[2018-08-11 19:36:12] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-11 19:36:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}
+
+[2018-08-11 19:36:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-11 19:36:15] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}
+
+[2018-08-11 19:36:15] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"2","lat":"11.6408733","lng":"75.583175","versionCode":"1"}  response --> {"code":201,"msg":"no driver found","drivers":[]}
+
+[2018-08-11 19:36:57] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}
+
+[2018-08-11 19:36:57] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6667441763810974"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9118258177947832"}]}
+
+[2018-08-11 22:48:59] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}
+
+[2018-08-11 22:48:59] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"7.612210137749241"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"7.854355274636593"}]}
+
+[2018-08-11 23:20:26] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}
+
+[2018-08-11 23:20:26] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"12.245","name":"Aswathi","phone":"8075632151","distance":"0"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"7.612210137749241"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"7.854355274636593"}]}
+
+[2018-08-11 23:25:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6235628","lng":"75.5861922","versionCode":"1"}
+
+[2018-08-11 23:25:13] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6235628","lng":"75.5861922","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"1.1554566005130271"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"1.2953606389644219"},{"driver_id":"17","lat":"11.638641","lng":"75.588326","accuracy":"2685","name":"Arjith","phone":"4848484824","distance":"1.6926807616191826"},{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"18.809","name":"Aswathi","phone":"8075632151","distance":"8.6263784170459"}]}
+
+[2018-08-11 23:29:11] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6422537","lng":"75.5758656","versionCode":"1"}
+
+[2018-08-11 23:29:11] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6422537","lng":"75.5758656","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"1.1158431305679377"},{"driver_id":"17","lat":"11.639566","lng":"75.586067","accuracy":"2900","name":"Arjith","phone":"4848484824","distance":"1.1505149436522994"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"1.208153634706126"},{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"18.821","name":"Aswathi","phone":"8075632151","distance":"7.200680253233758"}]}
+
+[2018-08-11 23:30:51] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}
+
+[2018-08-11 23:30:51] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"13.207","name":"Aswathi","phone":"8075632151","distance":"0"},{"driver_id":"17","lat":"11.645215","lng":"75.586960","accuracy":"2685","name":"Arjith","phone":"4848484824","distance":"6.344342397095783"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"7.612210137749241"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"7.854355274636593"}]}
+
+[2018-08-11 23:30:55] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}
+
+[2018-08-11 23:30:55] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"a4ete6ys","vehicletype":"3","lat":"11.6973782","lng":"75.6105649","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"13.207","name":"Aswathi","phone":"8075632151","distance":"0"},{"driver_id":"17","lat":"11.645215","lng":"75.586960","accuracy":"2685","name":"Arjith","phone":"4848484824","distance":"6.344342397095783"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"7.612210137749241"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"7.854355274636593"}]}
+
+[2018-08-11 23:30:59] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.645215","lng":"75.5869617","versionCode":"1"}
+
+[2018-08-11 23:30:59] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.645215","lng":"75.5869617","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"17","lat":"11.645215","lng":"75.586960","accuracy":"2685","name":"Arjith","phone":"4848484824","distance":"0.00021228177971618117"},{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"1.2683997905283613"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"1.5100917218314496"},{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"13.207","name":"Aswathi","phone":"8075632151","distance":"6.3442721769207004"}]}
+
+[2018-08-11 23:32:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}
+
+[2018-08-11 23:32:04] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6395659","lng":"75.5860704","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.6667441763810974"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.9118258177947832"},{"driver_id":"17","lat":"11.642254","lng":"75.575867","accuracy":"2685","name":"Arjith","phone":"4848484824","distance":"1.1507560571687925"},{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"18.918","name":"Aswathi","phone":"8075632151","distance":"6.959869153925077"}]}
+
+[2018-08-11 23:36:11] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6351269","lng":"75.5829116","versionCode":"1"}
+
+[2018-08-11 23:36:11] request <-- {"action":"finddrivers","controller":"user","module":"Api","token":"aqasezu4","vehicletype":"3","lat":"11.6351269","lng":"75.5829116","versionCode":"1"}  response --> {"code":202,"msg":"driver fetch success","drivers":[{"driver_id":"6","lat":"11.634655","lng":"75.582558","accuracy":"3391","name":"arjun","phone":"4848424149","distance":"0.06510907474187118"},{"driver_id":"3","lat":"11.632802","lng":"75.581337","accuracy":"3010","name":"shanil","phone":"4814454545","distance":"0.3102264750216618"},{"driver_id":"17","lat":"11.639566","lng":"75.586067","accuracy":"2900","name":"Arjith","phone":"4848484824","distance":"0.6015016872988092"},{"driver_id":"19","lat":"11.697378","lng":"75.610565","accuracy":"18.904","name":"Aswathi","phone":"8075632151","distance":"7.548711609299138"}]}

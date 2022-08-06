@@ -1,0 +1,32 @@
+
+[2018-09-17 00:46:58] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}
+
+[2018-09-17 00:46:58] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-09-17 00:48:42] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}
+
+[2018-09-17 00:48:42] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-09-17 00:54:22] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}
+
+[2018-09-17 00:54:22] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-09-17 00:56:58] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}
+
+[2018-09-17 00:56:58] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-09-17 00:57:11] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}
+
+[2018-09-17 00:57:11] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-09-17 01:03:21] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}
+
+[2018-09-17 01:03:21] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}
+
+[2018-09-17 09:53:10] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}
+
+[2018-09-17 09:53:10] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"1"}  response --> {"code":271,"msg":"change online sucess","current_state":1}
+
+[2018-09-17 09:55:39] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}
+
+[2018-09-17 09:55:39] request <-- {"action":"setonlineoffline","controller":"driver","module":"Api","token":"nyna9yza","online":"0"}  response --> {"code":271,"msg":"change offline sucess","current_state":0}

@@ -1,0 +1,28 @@
+
+[2018-08-24 00:08:58] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484840"}
+
+[2018-08-24 00:08:58] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484840"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-24 00:28:13] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484823"}
+
+[2018-08-24 00:28:13] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484823"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-24 00:39:15] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484843"}
+
+[2018-08-24 00:39:15] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484843"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-24 00:42:07] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484843"}
+
+[2018-08-24 00:42:07] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484843"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-24 00:44:39] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484842"}
+
+[2018-08-24 00:44:40] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484842"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-24 00:47:22] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484844"}
+
+[2018-08-24 00:47:22] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4848484844"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-24 10:44:26] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4878454878"}
+
+[2018-08-24 10:44:26] request <-- {"action":"requestotpregistraion","controller":"driver","module":"Api","phone":"4878454878"}  response --> {"code":179,"msg":"OTP request success"}

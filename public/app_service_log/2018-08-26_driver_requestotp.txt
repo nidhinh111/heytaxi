@@ -1,0 +1,24 @@
+
+[2018-08-26 12:03:01] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"6666666655"}
+
+[2018-08-26 12:03:01] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"6666666655"}  response --> {"code":179,"msg":"OTP request success"}
+
+[2018-08-26 13:25:57] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}
+
+[2018-08-26 13:25:57] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"9562880285"}  response --> {"code":184,"msg":"Already registered as passenger"}
+
+[2018-08-26 13:26:16] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848434642"}
+
+[2018-08-26 13:26:16] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848434642"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-26 13:29:43] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848454244"}
+
+[2018-08-26 13:29:43] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848454244"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-26 13:34:00] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484245"}
+
+[2018-08-26 13:34:00] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4848484245"}  response --> {"code":185,"msg":"Driver registration needed"}
+
+[2018-08-26 13:45:48] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4847454222"}
+
+[2018-08-26 13:45:48] request <-- {"action":"requestotp","controller":"driver","module":"Api","phone":"4847454222"}  response --> {"code":185,"msg":"Driver registration needed"}

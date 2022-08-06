@@ -1,0 +1,4 @@
+
+[2018-08-26 11:32:43] request <-- {"action":"requestresendotp","controller":"driver","module":"Api"}
+
+[2018-08-26 11:32:43] request <-- {"action":"requestresendotp","controller":"driver","module":"Api"}  response --> {"code":185,"msg":"Driver registration needed"}

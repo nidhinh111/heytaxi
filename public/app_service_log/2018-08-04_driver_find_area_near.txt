@@ -1,0 +1,12 @@
+
+[2018-08-04 11:48:42] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}
+
+[2018-08-04 11:48:42] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"2","name":"Juhu","lat":"19.098801","lng":"72.832100","status":"1","distance":"5.558531824734805"}]}
+
+[2018-08-04 12:23:26] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}
+
+[2018-08-04 12:23:26] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"2","name":"Juhu","lat":"19.098801","lng":"72.832100","status":"1","distance":"5.558531824734805"}]}
+
+[2018-08-04 12:31:25] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}
+
+[2018-08-04 12:31:25] request <-- {"action":"findareanear","controller":"driver","module":"Api","lat":"19.1433824","lng":"72.8081658"}  response --> {"code":250,"msg":"near area fetch success","area":[{"id":"2","name":"Juhu","lat":"19.098801","lng":"72.832100","status":"1","distance":"5.558531824734805"}]}

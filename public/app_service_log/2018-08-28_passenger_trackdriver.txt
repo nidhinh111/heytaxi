@@ -1,0 +1,12 @@
+
+[2018-08-28 11:14:02] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"u7a9evyd","driver_id":"27"}
+
+[2018-08-28 11:14:02] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"u7a9evyd","driver_id":"27"}  response --> {"code":211,"msg":"driver location fetch success","drivers":[{"id":"216","driver_id":"27","lat":"11.288237","lng":"75.800613","accuracy":"23.154","update_time":"2018-08-28 11:13:45"}]}
+
+[2018-08-28 11:28:40] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"2uruvape","driver_id":"21"}
+
+[2018-08-28 11:28:40] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"2uruvape","driver_id":"21"}  response --> {"code":211,"msg":"driver location fetch success","drivers":[{"id":"230","driver_id":"21","lat":"11.288247","lng":"75.800621","accuracy":"16","update_time":"2018-08-28 11:28:39"}]}
+
+[2018-08-28 11:29:00] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"2uruvape","driver_id":"21"}
+
+[2018-08-28 11:29:00] request <-- {"action":"trackdriver","controller":"user","module":"Api","token":"2uruvape","driver_id":"21"}  response --> {"code":211,"msg":"driver location fetch success","drivers":[{"id":"230","driver_id":"21","lat":"11.288247","lng":"75.800621","accuracy":"16","update_time":"2018-08-28 11:28:39"}]}
